@@ -14,6 +14,21 @@ public class Main {
         listaClientes.add(cliente2);
         listaClientes.add(cliente3);
         listaClientes.add(cliente4);
+        
+        String cedulaBuscada = "1214897564";
+
+        System.out.println("Lista de cleientes");
+        for (Cliente cl : listaClientes) {
+            System.out.println(cl);
+    
+            if(cl.getCedula().equals(cedulaBuscada)){
+                System.out.println("Cliente encontrado: " + cl.getNombre() + " Con cédula: " + cl.getCedula());
+                break; 
+            }
+        }
+
+
+        
 
     }
 }
