@@ -1,5 +1,7 @@
 package terceraEntrega.listaSencilla;
 
+import java.util.ArrayList;
+
 public class listaSencilla {
     Nodo cabeza;
 
@@ -21,10 +23,20 @@ public class listaSencilla {
     public void mostrar(){
         Nodo actual = cabeza;
 
-        while (actuaL != null){
+        while (actual != null){
             System.out.println(actual.dato);
             actual = actual.siguiente;
         }
         System.out.println("");
     }
+
+    public ArrayList<Integer> obtenerValores() {
+    ArrayList<Integer> valores = new ArrayList<>();
+    Nodo actual = cabeza; // Asumiendo que tu lista tiene un nodo cabeza
+    while (actual != null) {
+        valores.add(actual.dato); // Asumiendo que tu nodo tiene el atributo 'dato'
+        actual = actual.siguiente;
+    }
+    return valores;
+}
 }
