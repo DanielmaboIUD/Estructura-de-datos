@@ -64,7 +64,7 @@ public class Main {
                 int valorNodo = 0;
 
                 do {
-                    System.out.println("Por favor ingresa los valores para la lista circular en la posisción " + (i+1) );
+                    System.out.println("Por favor ingresa los valores para la lista circular en la posición " + (i+1) );
 
                     valorNodo = sc.nextInt();
 
