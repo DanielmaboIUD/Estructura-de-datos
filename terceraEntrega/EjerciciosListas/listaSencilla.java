@@ -32,9 +32,9 @@ public class listaSencilla {
 
     public ArrayList<Integer> obtenerValores() {
     ArrayList<Integer> valores = new ArrayList<>();
-    Nodo actual = cabeza; // Asumiendo que tu lista tiene un nodo cabeza
+    Nodo actual = cabeza;
     while (actual != null) {
-        valores.add(actual.dato); // Asumiendo que tu nodo tiene el atributo 'dato'
+        valores.add(actual.dato);
         actual = actual.siguiente;
     }
     return valores;
