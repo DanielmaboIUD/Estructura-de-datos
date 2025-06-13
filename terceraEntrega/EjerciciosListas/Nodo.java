@@ -1,4 +1,4 @@
-package terceraEntrega.listaSencilla;
+package terceraEntrega.EjerciciosListas;
 
 public class Nodo {
      int dato;

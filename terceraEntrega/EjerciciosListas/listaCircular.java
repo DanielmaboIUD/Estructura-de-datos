@@ -1,4 +1,4 @@
-package terceraEntrega.listaSencilla;
+package terceraEntrega.EjerciciosListas;
 
 import java.util.ArrayList;
 
